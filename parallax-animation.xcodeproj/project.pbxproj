@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463C25D11D93F1BF004FB942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C25D01D93F1BF004FB942 /* AppDelegate.swift */; };
+		463C25D81D93F1BF004FB942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463C25D61D93F1BF004FB942 /* Main.storyboard */; };
+		463C25DD1D93F1BF004FB942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463C25DB1D93F1BF004FB942 /* LaunchScreen.storyboard */; };
+		463C25E51D9405F8004FB942 /* HorizontalCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C25E41D9405F8004FB942 /* HorizontalCVC.swift */; };
+		463C25E71D940615004FB942 /* VerticalCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C25E61D940615004FB942 /* VerticalCVC.swift */; };
+		463C25E91D94095A004FB942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463C25E81D94095A004FB942 /* Assets.xcassets */; };
+		463C25EB1D94103C004FB942 /* ParallaxBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C25EA1D94103C004FB942 /* ParallaxBaseCell.swift */; };
+		463C25F01D9413A8004FB942 /* ParallaxBaseFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C25EE1D9413A8004FB942 /* ParallaxBaseFlowLayout.swift */; };
+		463C25F11D9413A8004FB942 /* ParallaxLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C25EF1D9413A8004FB942 /* ParallaxLayoutAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		463C25CD1D93F1BF004FB942 /* parallax-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "parallax-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463C25D01D93F1BF004FB942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		463C25D71D93F1BF004FB942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		463C25DC1D93F1BF004FB942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		463C25DE1D93F1BF004FB942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463C25E41D9405F8004FB942 /* HorizontalCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCVC.swift; sourceTree = "<group>"; };
+		463C25E61D940615004FB942 /* VerticalCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalCVC.swift; sourceTree = "<group>"; };
+		463C25E81D94095A004FB942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		463C25EA1D94103C004FB942 /* ParallaxBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParallaxBaseCell.swift; path = View/ParallaxBaseCell.swift; sourceTree = "<group>"; };
+		463C25EE1D9413A8004FB942 /* ParallaxBaseFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParallaxBaseFlowLayout.swift; path = Layout/ParallaxBaseFlowLayout.swift; sourceTree = "<group>"; };
+		463C25EF1D9413A8004FB942 /* ParallaxLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParallaxLayoutAttributes.swift; path = Layout/ParallaxLayoutAttributes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463C25CA1D93F1BF004FB942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463C25C41D93F1BF004FB942 = {
+			isa = PBXGroup;
+			children = (
+				463C25CF1D93F1BF004FB942 /* parallax-animation */,
+				463C25CE1D93F1BF004FB942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		463C25CE1D93F1BF004FB942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463C25CD1D93F1BF004FB942 /* parallax-animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		463C25CF1D93F1BF004FB942 /* parallax-animation */ = {
+			isa = PBXGroup;
+			children = (
+				463C25ED1D94134F004FB942 /* Layout */,
+				463C25EC1D9410B1004FB942 /* View */,
+				463C25E81D94095A004FB942 /* Assets.xcassets */,
+				463C25D01D93F1BF004FB942 /* AppDelegate.swift */,
+				463C25D61D93F1BF004FB942 /* Main.storyboard */,
+				463C25DB1D93F1BF004FB942 /* LaunchScreen.storyboard */,
+				463C25DE1D93F1BF004FB942 /* Info.plist */,
+				463C25E41D9405F8004FB942 /* HorizontalCVC.swift */,
+				463C25E61D940615004FB942 /* VerticalCVC.swift */,
+			);
+			path = "parallax-animation";
+			sourceTree = "<group>";
+		};
+		463C25EC1D9410B1004FB942 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				463C25EA1D94103C004FB942 /* ParallaxBaseCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		463C25ED1D94134F004FB942 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				463C25EE1D9413A8004FB942 /* ParallaxBaseFlowLayout.swift */,
+				463C25EF1D9413A8004FB942 /* ParallaxLayoutAttributes.swift */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		463C25CC1D93F1BF004FB942 /* parallax-animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463C25E11D93F1BF004FB942 /* Build configuration list for PBXNativeTarget "parallax-animation" */;
+			buildPhases = (
+				463C25C91D93F1BF004FB942 /* Sources */,
+				463C25CA1D93F1BF004FB942 /* Frameworks */,
+				463C25CB1D93F1BF004FB942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "parallax-animation";
+			productName = "parallax-animation";
+			productReference = 463C25CD1D93F1BF004FB942 /* parallax-animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463C25C51D93F1BF004FB942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Martin Prusa";
+				TargetAttributes = {
+					463C25CC1D93F1BF004FB942 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C9DZWJK37Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 463C25C81D93F1BF004FB942 /* Build configuration list for PBXProject "parallax-animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463C25C41D93F1BF004FB942;
+			productRefGroup = 463C25CE1D93F1BF004FB942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				463C25CC1D93F1BF004FB942 /* parallax-animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463C25CB1D93F1BF004FB942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463C25DD1D93F1BF004FB942 /* LaunchScreen.storyboard in Resources */,
+				463C25E91D94095A004FB942 /* Assets.xcassets in Resources */,
+				463C25D81D93F1BF004FB942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463C25C91D93F1BF004FB942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463C25E51D9405F8004FB942 /* HorizontalCVC.swift in Sources */,
+				463C25F11D9413A8004FB942 /* ParallaxLayoutAttributes.swift in Sources */,
+				463C25F01D9413A8004FB942 /* ParallaxBaseFlowLayout.swift in Sources */,
+				463C25EB1D94103C004FB942 /* ParallaxBaseCell.swift in Sources */,
+				463C25D11D93F1BF004FB942 /* AppDelegate.swift in Sources */,
+				463C25E71D940615004FB942 /* VerticalCVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		463C25D61D93F1BF004FB942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463C25D71D93F1BF004FB942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		463C25DB1D93F1BF004FB942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463C25DC1D93F1BF004FB942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		463C25DF1D93F1BF004FB942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		463C25E01D93F1BF004FB942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		463C25E21D93F1BF004FB942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9DZWJK37Q;
+				INFOPLIST_FILE = "parallax-animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinprusa.parallax-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		463C25E31D93F1BF004FB942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9DZWJK37Q;
+				INFOPLIST_FILE = "parallax-animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinprusa.parallax-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463C25C81D93F1BF004FB942 /* Build configuration list for PBXProject "parallax-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463C25DF1D93F1BF004FB942 /* Debug */,
+				463C25E01D93F1BF004FB942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463C25E11D93F1BF004FB942 /* Build configuration list for PBXNativeTarget "parallax-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463C25E21D93F1BF004FB942 /* Debug */,
+				463C25E31D93F1BF004FB942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 463C25C51D93F1BF004FB942 /* Project object */;
+}
